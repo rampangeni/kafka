@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-kafka-consumer-elasticsearch" />
+        <module name="my-kafka-basics" />
+        <module name="my-kafka-producer-twitter" />
+        <module name="kafka-connect" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="connectors" target="8" />
+      <module name="kafka-basics" target="8" />
+      <module name="kafka-producer-twitter" target="8" />
+      <module name="test-module" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
